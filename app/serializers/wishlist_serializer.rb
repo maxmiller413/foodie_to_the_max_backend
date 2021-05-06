@@ -1,5 +1,5 @@
 class WishlistSerializer < ActiveModel::Serializer
-  attributes :id, :title, :user
+  attributes :id, :title, :places
   # has_one :user
   
   has_many :wishlist_places

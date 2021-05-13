@@ -36,9 +36,9 @@ tds = Place.create(name: "Table, Donkey and Stick", phone: "(773) 486-8525", str
 
 wasabi = Place.create(name: "Ramen Wasabi", phone: "(773) 227-8180", street_address: "2101 N Milwaukee Ave", city: "Chicago", state: "IL", zip: "60647", image_url: "https://s3-media0.fl.yelpcdn.com/bphoto/Tv5wtUME7PQRPjwf5tQCdg/348s.jpg", url: "http://www.wasabichicago.com/", rating: 4.0, review_count: 1918, categories: "Ramen", price: "$$")
 
-wishlist1 = Wishlist.create(user: max, title: "date night")
-wishlist2 = Wishlist.create(user: max, title: "expensive")
-wishlist3 = Wishlist.create(user: jacob, title: "favs")
+wishlist1 = Wishlist.create(user: max, title: "Date Night")
+wishlist2 = Wishlist.create(user: max, title: "Expensive")
+wishlist3 = Wishlist.create(user: jacob, title: "Favs")
 
 wishlist_places1 = WishlistPlace.create(place: giant, wishlist: wishlist1)
 wishlist_places2 = WishlistPlace.create(place: longman, wishlist: wishlist1)

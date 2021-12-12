@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
     before_action :authenticate, only: [:show]
-    # review 
+    # *** review users auth ***
 # POST /login
     def login
     #TODO : check the username and password
